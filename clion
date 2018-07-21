@@ -1,0 +1,18 @@
+# Multiline editing
+
+## Multiple editing cursor with mouse
+Ctrl + Alt + Shift + Right Click
+
+
+## Multiple editing cursor spanning multiple lines
+Ctrl + Ctrl (Hold) + Up|Down
+
+## Select next word occurancy
+(Windows/Linux) Alt + J
+(MacOSX) Alt + G
+## Remove last occurency
+(Windows/Linux) Alt + Shift + J
+(MacOSX) Alt + Shift + G
+## Select all occurancies
+(Windows/Linux) Alt + Ctrl + Shift + J
+(MaxOSX) Command + Alt + G
