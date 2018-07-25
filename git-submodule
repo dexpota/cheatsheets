@@ -1,0 +1,8 @@
+# Add submodule to your git repository
+git submodule add <url> <name>
+
+# Download the contents of all submodules of your git repository
+git submodule update --init --recursive
+
+# Clone a repository and download all submodules
+git clone --recursive <url>
