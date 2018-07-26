@@ -3,3 +3,9 @@ Command + Shift + Enter
 
 # Complete statement (Windows/Linux)
 Control + Shift + Enter
+
+# Locate the current resource
+Alt + F1
+
+# Replace multiple occurencies (MacOSX)
+Command + Alt + V
