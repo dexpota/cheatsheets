@@ -1,0 +1,8 @@
+# Install pre-commit into your git hooks
+pre-commit install
+
+# Manually run all pre-commit hooks on a repository
+pre-commit run --all-files
+
+# Run individual hooks
+pre-commit run <hook_id>
