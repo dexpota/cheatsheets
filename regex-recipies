@@ -1,0 +1,4 @@
+# Match a markdown code block.
+```regex
+^(([ \t]*`{3,4})([^\n]*)([\s\S]+?)(^[ \t]*\2))
+```
