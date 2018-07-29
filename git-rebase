@@ -1,0 +1,7 @@
+# Your branch <local> and 'origin/<remote>' have diverged
+
+git checkout <local>
+git rebase origin/<remote>
+
+- If you rebase a local branch on top of another one, and your local branch has already been pushed, then you will get an error when trying to push the rebased local branch.
+
