@@ -1,3 +1,9 @@
+# List all tags
+task <filter> tags
+
+# List all projects
+task <filter> projects
+
 # Filtering by project
 task project:<name> list
 
