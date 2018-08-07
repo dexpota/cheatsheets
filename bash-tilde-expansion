@@ -1,0 +1,14 @@
+# Expands to home directory
+~
+
+# Append home directory with the patch specified
+~/"path/to/another"
+
+# Expand to the username's home directory
+~username
+
+# Expand to current directory
+~+
+
+# Expand to previous working directory
+~-
