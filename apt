@@ -1,0 +1,2 @@
+# Search by package name
+apt search --names-only <query>
