@@ -1,0 +1,8 @@
+# Diff last commit with changes not yet staged
+git diff
+
+# Diff last commit with staged changes
+git diff --staged
+
+# Diff last commit with staged changes (synonym of --staged)
+git diff --cached
