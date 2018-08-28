@@ -1,0 +1,6 @@
+# Generate distribution archives
+python setup.py sdist bdist_wheel
+
+# Upload the distribution archives
+twine upload dist/*
+
