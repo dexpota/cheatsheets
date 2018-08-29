@@ -1,0 +1,6 @@
+# Generate requirements.txt
+pipenv lock --requirements > requirements.txt
+
+# Generate developing requirements.txt
+pipenv lock --requirements --dev > requirements-dev.txt
+
