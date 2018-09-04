@@ -39,3 +39,14 @@ these expressions can be used.
 [ STRING1 > STRING2 ]	True if "STRING1" sorts after "STRING2" lexicographically in the current locale.
 [ ARG1 OP ARG2 ]	"OP" is one of -eq, -ne, -lt, -le, -gt or -ge, these are arithmetic binary operators.
 
+# Combination of expressions
+[ ! EXPR ]	True if EXPR is false.
+[ ( EXPR ) ]	Returns the value of EXPR. This may be used to override the normal precedence of operators.
+[ EXPR1 -a EXPR2 ]	True if both EXPR1 and EXPR2 are true.
+[ EXPR1 -o EXPR2 ]	True if either EXPR1 or EXPR2 is true.
+
+# Examples
+if true && false; then echo "true"; fi
+if true && [[ 1 > 0 ]] ; then echo "true"; fi
+if true && [ 1 -gt 0 ] ; then echo "true"; fi
+
