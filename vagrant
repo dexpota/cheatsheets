@@ -1,0 +1,22 @@
+# Creating a Virtual Machine
+- `vagrant init`
+- `vagrant init <box>`
+
+# Starting a Virtual Machine
+- `vagrant up`
+- `vagrant resume`
+- `vagrant reload`
+
+# Logging into the Virtual Machine
+- `vagrant ssh`
+- `vagrant ssh <box>`
+
+# Stopping the Virtual Machine
+- `vagrant halt`
+- `vagrant suspend`
+
+# Boxes
+- `vagrant box list`
+
+# Misc
+- `vagrant status`
