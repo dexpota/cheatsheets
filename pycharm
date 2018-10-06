@@ -1,3 +1,13 @@
+# Open the documentation tool window
+Ctrl + Q
+
+# Show intention actions
+Alt + Enter
+- This can be used to add documentation to an existing function or method;
+
+# Open suggestion window
+Ctrl + Space
+
 # Find action - search for commands and settings
 Ctrl + Shift + A
 

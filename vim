@@ -1,3 +1,14 @@
+# Basics
+:q 		quit vim
+:q! 	quit vim without saving
+:w <f>	write to <f>
+:w!		overwrite the file if exit: 
+:wq		write the file and quit
+:x		quit and save
+:r <f>	write the content of the file at the current cursor position
+:help	open the help guide
+ZZ		write file and quit
+
 # Wrap selected lines
 (in visual mode) gq
 
