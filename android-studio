@@ -9,3 +9,6 @@ Alt + F1
 
 # Replace multiple occurencies (MacOSX)
 Command + Alt + V
+
+# Surround with tag
+CMD+ALT+T
