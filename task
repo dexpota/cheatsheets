@@ -1,20 +1,41 @@
-# List all tags
-task <filter> tags
+# Commands
 
-# List all projects
-task <filter> projects
+## Syntax
+```
+task <[filter]> <[command]> [<modifications> | <miscellaneous>]
+```
 
-# Filtering by project
-task project:<name> list
+## List all tags
+```
+task <[filter]> tags
+```
 
-# Filtering by tag
-task +<tag> list
-
-# Add new task
+## Add new task
+```
 task add <modifications>
+```
 
-# Modify a task
+## Modify a task
+```
 task <filter> modifiy <modifications>
+```
+
+## List all projects
+```
+task <[filter]> projects
+```
+
+# Filters
+
+## Filtering by project
+```
+task proje>t:<name> list
+```
+
+## Filtering by tag
+```
+task +<tag> list
+```
 
 # Task modifications
 project:<project-name>
