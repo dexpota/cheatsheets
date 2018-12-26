@@ -31,22 +31,27 @@ task <[filter]> <[command]> [<modifications> | <miscellaneous>]
 
 Filters are used to specify a set of tasks, it is possible to filter
 
-* by attribute's value `name: [value]`, or lack of value `name:`
+* by attribute's value `attribute: [value]`, or lack of value `attribute:`
 * by `+tag`, or lack of `-tag`,
 * or by looking for a match `/regex/`;
 
-## Filtering by project
-```
-task project:<name> list
+## Examples
+
+```bash
+# list all task assigned to the 'home' project 
+task project:home list
 ```
 
-## Filtering by tag
-```
-task +<tag> list
+```bash
+# list all task with the 'urgent' tag
+task +urgent list
 ```
 
-# Task modifications
-project:<project-name>
-priority:H|M|L
-+<tag>
-due:<due-date>
+# Attributes
+> Some of taskwarrior's core attributes, for a full list run the command `task _columns` 
+
+| attribute | description |
+| -- | -- |
+| project: string | project.subproject | 
+| due: date | the due date |
+| depends: | the id of the task it depends on |
