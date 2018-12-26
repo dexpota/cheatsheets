@@ -1,35 +1,29 @@
-# Commands
+# Syntax
+> All taskwarrior's commands follow this general syntax
 
-## Syntax
 ```
 task <[filter]> <[command]> [<modifications> | <miscellaneous>]
 ```
 
-## List all tags
-```
-task <[filter]> tags
-```
+# Commands
 
-## Add new task
-```
-task add <modifications>
-```
+> Some of the most common commands, for a full list visit https://taskwarrior.org/docs/commands/
 
-## Modify a task
-```
-task <filter> modifiy <modifications>
-```
+| command | description |
+| --- | --- |
+| task <[filter]> modify <[modifications]> | modify one or more tasks |
+| task add <desc> <[modifications]>  | add a new task |
 
-## List all projects
-```
-task <[filter]> projects
-```
+| report | description |
+| --- | --- |
+| task <[filter]> tags | filtered list of tags |
+| task <[filter]> projects | filtered list of projects, with task counts |
 
 # Filters
 
 ## Filtering by project
 ```
-task proje>t:<name> list
+task project:<name> list
 ```
 
 ## Filtering by tag
