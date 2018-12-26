@@ -17,6 +17,10 @@ task <[filter]> <[command]> [<modifications> | <miscellaneous>]
 | task <[filter]> stop | stop working on a task, no longer active |
 | task <[filter]> done <[annotation]> <[modifications]> | complete a task |
 
+# Reports
+
+> For more information on report visit https://taskwarrior.org/docs/report.html
+
 | report | description |
 | --- | --- |
 | task <[filter]> tags | filtered list of tags |
@@ -24,6 +28,12 @@ task <[filter]> <[command]> [<modifications> | <miscellaneous>]
 | task <[filter]> summary | filtered project summary |
 
 # Filters
+
+Filters are used to specify a set of tasks, it is possible to filter
+
+* by attribute's value `name: [value]`, or lack of value `name:`
+* by `+tag`, or lack of `-tag`,
+* or by looking for a match `/regex/`;
 
 ## Filtering by project
 ```
