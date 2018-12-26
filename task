@@ -1,7 +1,7 @@
 # Syntax
 > All taskwarrior's commands follow this general syntax
 
-```
+```bash
 task <[filter]> <[command]> [<modifications> | <miscellaneous>]
 ```
 
@@ -11,13 +11,17 @@ task <[filter]> <[command]> [<modifications> | <miscellaneous>]
 
 | command | description |
 | --- | --- |
-| task <[filter]> modify <[modifications]> | modify one or more tasks |
-| task add <desc> <[modifications]>  | add a new task |
+| task <[filter]> modify <[modifications]> | modify one or more task |
+| task add DESCRIPTION <[modifications]>  | add a new task |
+| task <[filter]> start | start working on a task, make active |
+| task <[filter]> stop | stop working on a task, no longer active |
+| task <[filter]> done <[annotation]> <[modifications]> | complete a task |
 
 | report | description |
 | --- | --- |
 | task <[filter]> tags | filtered list of tags |
 | task <[filter]> projects | filtered list of projects, with task counts |
+| task <[filter]> summary | filtered project summary |
 
 # Filters
 
