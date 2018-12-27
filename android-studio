@@ -1,14 +1,8 @@
-# Complete statement (MacOSX)
-Command + Shift + Enter
+# Shortcuts
 
-# Complete statement (Windows/Linux)
-Control + Shift + Enter
-
-# Locate the current resource
-Alt + F1
-
-# Replace multiple occurencies (MacOSX)
-Command + Alt + V
-
-# Surround with tag
-CMD+ALT+T
+| description                  | mac                     | windows and linux       |
+|------------------------------|-------------------------|-------------------------|
+| complete statement           | Command + Shift + Enter | Control + Shift + Enter |
+| surround with tag            | Command + Alt + T       |                         |
+| locate the current resource  |                         | Alt + F1                |
+| replace multiple occurencies | Command + Alt + V       |                         |
