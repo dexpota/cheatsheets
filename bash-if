@@ -1,6 +1,22 @@
 # Syntax
-if <test>; then <commands>; fi
-The <test> is executed and if its return status is zero, <commands> is executed.
+
+```
+if <test>; then 
+	<commands>
+elif <test>; then
+	<commands>
+else
+	<commands>
+fi
+```
+
+The branch's condition *<test>* can be:
+
+- a *command*, if it succeds (return code is zero) then the *<test>* evaluates to true;
+	- `test EXPRESSION`;
+	- `[ EXPRESSION ]`;
+- a combination of commands separated using control operators:
+	- `! test EXPR1 && test EXPR2 || test EXPR3`
 
 # Primary expressions
 The square brackets work similar to the test command. Inside square brackets
