@@ -1,21 +1,17 @@
 # Bash
 
 ## Arithmetic Expansion
-> It is possible to performs integer arithmetic operations using arithmetic expansion.
+It is possible to performs integer arithmetic operations using arithmetic
+expansion. The followings are three different variations on arithmetic
+expansion.
 
-```bash
-# using `` and expr
-<variable>=`expr <expression>`
-# using double parenthesis
-<variable>=$((<expression>))
-```
+- Using the command `expr` and the backticks: ``RESULT=`expr EXPRESSION` ``;
 
-```bash
-# using doublw paranthesis
-((<expression>))
-# and let
-let <expression>
-```
+- Using double parentheses:
+	- as a command `(( EXPRESSION ))`, this returns 0 if expression is different is different from zero, else 1;
+	- as an interpolation `VARIABLE=$(( EXPRESSION ))`, this returns the value of the expression;
+
+- Using the command `let`: `let EXPRESSION`;
 
 ## Parameter substitution
 
