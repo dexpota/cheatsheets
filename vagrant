@@ -1,22 +1,34 @@
-# Creating a Virtual Machine
-- `vagrant init`
-- `vagrant init <box>`
+# Vagrant
 
-# Starting a Virtual Machine
-- `vagrant up`
-- `vagrant resume`
-- `vagrant reload`
+## Creating a Virtual Machine
 
-# Logging into the Virtual Machine
-- `vagrant ssh`
-- `vagrant ssh <box>`
+| command          | description                                                                                         |
+|------------------|-----------------------------------------------------------------------------------------------------|
+| vagrant init     | Initialize Vagrant with a Vagrantfile and ./.vagrant directory, using no specified base image.      |
+| vagrant init BOX | Initialize Vagrant with a specific box. To find a box, go to https://app.vagrantup.com/boxes/search |
 
-# Stopping the Virtual Machine
-- `vagrant halt`
-- `vagrant suspend`
+## Starting a Virtual Machine
 
-# Boxes
-- `vagrant box list`
+| command        | description                                                  |
+|----------------|--------------------------------------------------------------|
+| vagrant up     | starts vagrant environment and provisioning on the first run |
+| vagrant resume | resume a suspended machine                                   |
+| vagrant reload | restarts vagrant machine and loads new Vagrantfile           |
 
-# Misc
-- `vagrant status`
+## Stopping the Virtual Machine
+
+| command         | description                |
+|-----------------|----------------------------|
+| vagrant halt    | stops the vagrant machine  |
+| vagrant suspend | suspends a virtual machine |
+
+## Logging into the Virtual Machine
+
+| command             | description                                                                     |
+|---------------------|---------------------------------------------------------------------------------|
+| vagrant ssh         | connect to the machine via SSH                                                  |
+| vagrant ssh BOXNAME | connect to the machine with the given box's name, this works from any directory |
+
+# References
+
+- https://gist.github.com/wpscholar/a49594e2e2b918f4d0c4

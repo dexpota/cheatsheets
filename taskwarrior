@@ -1,0 +1,57 @@
+# Syntax
+> All taskwarrior's commands follow this general syntax
+
+```bash
+task <[filter]> <[command]> [<modifications> | <miscellaneous>]
+```
+
+# Commands
+
+> Some of the most common commands, for a full list visit https://taskwarrior.org/docs/commands/
+
+| command                                               | description                              |
+|-------------------------------------------------------|------------------------------------------|
+| task <[filter]> modify <[modifications]>              | modify one or more task                  |
+| task add DESCRIPTION <[modifications]>                | add a new task                           |
+| task <[filter]> start                                 | start working on a task, make active     |
+| task <[filter]> stop                                  | stop working on a task, no longer active |
+| task <[filter]> done <[annotation]> <[modifications]> | complete a task                          |
+
+# Reports
+
+> For more information on report visit https://taskwarrior.org/docs/report.html
+
+| report | description |
+| --- | --- |
+| task <[filter]> tags | filtered list of tags |
+| task <[filter]> projects | filtered list of projects, with task counts |
+| task <[filter]> summary | filtered project summary |
+
+# Filters
+
+Filters are used to specify a set of tasks, it is possible to filter
+
+* by attribute's value `attribute: [value]`, or lack of value `attribute:`
+* by `+tag`, or lack of `-tag`,
+* or by looking for a match `/regex/`;
+
+## Examples
+
+```bash
+# list all task assigned to the 'home' project 
+task project:home list
+```
+
+```bash
+# list all task with the 'urgent' tag
+task +urgent list
+```
+
+# Attributes
+> Some of taskwarrior's core attributes, for a full list run the command `task _columns` 
+
+| attribute       | description                      |
+|-----------------|----------------------------------|
+| project: string | project.subproject               |
+| due: date       | the due date                     |
+| depends:        | the id of the task it depends on |

@@ -1,11 +1,30 @@
-# Complete statement (MacOSX)
-Command + Shift + Enter
+# Shortcuts
 
-# Complete statement (Windows/Linux)
-Control + Shift + Enter
+| description           | mac                     | windows and linux       |
+|-----------------------|-------------------------|-------------------------|
+| generate code         | Command + N             | Alt + Insert            |
+| override method       | Command + O             | Control + O             |
+| code completition     | Command + Space         | Control + Space         |
+| quick documentation   | Command + J             | Control + Q             |
+| recent files dialog   | Command + E             | Control + E             |
+| fold code block       | Command + -             | Control + -             |
+| unfold code block     | Command + +             | Control + +             |
+| reformat code         | Command + Alt + L       | Control + Alt + L       |
+| complete statement    | Command + Shift + Enter | Control + Shift + Enter |
+| surround with tag     | Command + Alt + T       |                         |
+| open 'select in' menu | Alt + F1                | Alt + F1                |
 
-# Locate the current resource
-Alt + F1
+## Search
 
-# Replace multiple occurencies (MacOSX)
-Command + Alt + V
+| description       | mac                 | windows and linux         |
+|-------------------|---------------------|---------------------------|
+| search everywhere | 2 x Shift           | 2 x Shift                 |
+| search actions    | Command + Shift + A | Control + Shift + A       |
+| search symbol     | Command + Alt + O   | Control + Alt + Shift + N |
+
+## Refactoring
+
+| description        | mac               | windows and linux |
+|--------------------|-------------------|-------------------|
+| rename             | Shift + F6        |                   |
+| extract expression | Command + Alt + V |                   |

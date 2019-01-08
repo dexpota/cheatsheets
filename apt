@@ -1,2 +1,23 @@
-# Search by package name
-apt search --names-only <query>
+# apt
+
+## apt
+
+| command                       | description                                   |
+|-------------------------------|-----------------------------------------------|
+| apt update                    | update package database                       |
+| apt upgrade                   | upgrade installed packages                    |
+| apt install NAME[=VERSION]    | install the specific version of the package   |
+| apt remove NAME               | remove the package                            |
+| apt purge NAME                | remove the package and its configuration iles |
+| apt search QUERY              | search the packages that match QUERY          |
+| apt search --names-only QUERY | search all package's names that match QUERY   |
+| apt show PACKAGE              | show more information about PACKAGE           |
+| apt list --upgradeable        | list all upgradeable packages                 |
+| apt list --installed          | list installed packages                       |
+
+## apt-cache
+
+| command                 | description                         |
+|-------------------------|-------------------------------------|
+| apt-cache pkgnames      | list all available packages         |
+| apt-cache pkgnames NAME | search all packages containing NAME |
