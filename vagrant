@@ -1,11 +1,22 @@
 # Vagrant
 
+## Up and running
+
+```bash
+# Initialize the environment with the specific Box. To find a box, go to https://app.vagrantup.com/boxes/search
+vagrant init ubuntu/bionic64 
+# Start the vagrant environment
+vagrant up
+# Connect to the machine via SSH
+vagrant ssh
+```
+
 ## Creating a Virtual Machine
 
-| command          | description                                                                                         |
-|------------------|-----------------------------------------------------------------------------------------------------|
-| vagrant init     | Initialize Vagrant with a Vagrantfile and ./.vagrant directory, using no specified base image.      |
-| vagrant init BOX | Initialize Vagrant with a specific box. To find a box, go to https://app.vagrantup.com/boxes/search |
+| command                        | description                                                                                                    |
+|--------------------------------|----------------------------------------------------------------------------------------------------------------|
+| vagrant init                   | Create a Vagrant environment with an initial Vagrantfile.                                                      |
+| vagrant init [<config.vm.box>] | Specify the box to initilize the Vagrantfile with. To find a box, go to https://app.vagrantup.com/boxes/search |
 
 ## Starting a Virtual Machine
 
