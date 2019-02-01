@@ -1,11 +1,12 @@
 # git-submodule
 
-| command                                    | description                                           |
-|--------------------------------------------|-------------------------------------------------------|
-| git submodule add <repository> <directory> | add a submodule to your repository                    |
-| git submodule status                       | list all repository's submodules                      |
-| git submodule init                         | initialize the submodules recorded in the index       |
-| git submodule update                       | clone the submodules                                  |
-| git submodule update --remote              | checkout the submodules to the remote tracking branch |
-| git submodule update --init                | initialize and clone the submodule                    |
-| git clone --recursive <url>                | clone a repository and download all submodules        |
+| command                                                  | description                                                    |
+|----------------------------------------------------------|----------------------------------------------------------------|
+| git submodule add <repository> [<path>]                  | add a submodule to your repository                             |
+| git submodule add <repository> [<path>] --name <logical> | add a submodule to your repository with the given logical name |
+| git submodule status                                     | list all repository's submodules                               |
+| git submodule init                                       | initialize the submodules recorded in the index                |
+| git submodule update                                     | clone the submodules                                           |
+| git submodule update --remote                            | checkout the submodules to the remote tracking branch          |
+| git submodule update --init                              | initialize and clone the submodule                             |
+| git clone --recursive <url>                              | clone a repository and download all submodules                 |
