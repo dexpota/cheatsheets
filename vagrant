@@ -40,6 +40,18 @@ vagrant ssh
 | vagrant ssh         | connect to the machine via SSH                                                  |
 | vagrant ssh BOXNAME | connect to the machine with the given box's name, this works from any directory |
 
+## Configurations
+
+### Enable GUI
+
+To enable the GUI, add the following snippet to your configuration file:
+
+```ruby
+config.vm.provider "virtualbox" do |v|
+	v.gui = true
+end
+```
+
 # References
 
 - https://gist.github.com/wpscholar/a49594e2e2b918f4d0c4
