@@ -4,7 +4,7 @@
 
 ```bash
 # Initialize the environment with the specific Box. To find a box, go to https://app.vagrantup.com/boxes/search
-vagrant init ubuntu/bionic64 
+vagrant init ubuntu/bionic64
 # Start the vagrant environment
 vagrant up
 # Connect to the machine via SSH
