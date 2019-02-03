@@ -27,11 +27,11 @@ The pre-commit config file describes what repositories and hooks are installed.
 
 > This mapping teels pre-commit where to get the code for the hook from:
 
-| field   | description                     |
-|---------|---------------------------------|
-| `repo`  | the repository url              |
-| `rev`   | the revision or tag to clone at |
-| `hooks` | a list of **hook mappings**     |
+| field   | description                                                         |
+|---------|---------------------------------------------------------------------|
+| `repo`  | the repository url, or the sentinel value `local` (see Local hooks) |
+| `rev`   | the revision or tag to clone at                                     |
+| `hooks` | a list of **hook mappings**                                         |
 
 ### Hooks mapping
 
@@ -54,6 +54,22 @@ The pre-commit config file describes what repositories and hooks are installed.
 | `verbose`                 | forces the hook output to be printed                                                       |
 | `log_file`                | the hook output will additionally be written to a file                                     |
 
+
+## Local hooks
+
+> It is possible to use define and use hooks in the same repository. In this
+> case the hooks mapping must define `id`, `name`, `language`, `entry` and
+> `files` or `types`.
+
+```yaml
+-   repo: local
+    hooks:
+    -   id: pylint
+        name: pylint
+        entry: python -m pylint.__main__
+        language: system
+        types: [python]
+```
 
 ## Commands
 
