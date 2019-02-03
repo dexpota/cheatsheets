@@ -1,2 +1,1 @@
-* linguist-language=Markdown
-vagrant linguist-language=Markdown
+vagrant linguist-detectable=true, linguist-language=markdown
