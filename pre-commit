@@ -1,8 +1,64 @@
-# Install pre-commit into your git hooks
-pre-commit install
+# pre-commit
 
-# Manually run all pre-commit hooks on a repository
-pre-commit run --all-files
+## Up and running
 
-# Run individual hooks
-pre-commit run <hook_id>
+- Create a configuration file called `.pre-commit-config.yaml`;
+    - Configure the hooks to be used by your repository, see **Configuration**
+      for more information.  pre-commit hooks are distributed using git
+      repository
+- Run `pre-commit install` to install pre-commit into your git hooks;
+- (Optionally) Run all pre-commit hooks manually `pre-commit run --all-files`,
+  or just one `pre-commit run <hook_id>`;
+- Everytime you commit some changes, pre-commit will run your hooks;
+
+## Configuration
+
+The pre-commit config file describes what repositories and hooks are installed.
+
+| field                      | description                                           |
+|----------------------------|-------------------------------------------------------|
+| `repos`                    | a list of **repository mappings**, see below          |
+| `default_language_version` | a mapping from language to the default version to use |
+| `default_stages`           | a list of defaults stages                             |
+| `exclude`                  | a global file exclude pattern                         |
+| `fail_fast`                | whether to stop after the first failure or not        |
+
+### Repository mapping
+
+> This mapping teels pre-commit where to get the code for the hook from:
+
+| field   | description                     |
+|---------|---------------------------------|
+| `repo`  | the repository url              |
+| `rev`   | the revision or tag to clone at |
+| `hooks` | a list of **hook mappings**     |
+
+### Hooks mapping
+
+> This mapping configures which hook from the repository is used.
+
+| field                     | description                                                                                |
+|---------------------------|--------------------------------------------------------------------------------------------|
+| `id`                      | the id of the hook to use                                                                  |
+| `alias`                   | additional id that can be used to reference this id                                        |
+| `name`                    | the name shown during hook execution                                                       |
+| `language_version`        | the language version for the hook                                                          |
+| `files`                   | override the default pattern for files to run on                                           |
+| `exclude`                 | file exclude pattern                                                                       |
+| `types`                   | override the default file types to run on                                                  |
+| `exclude_types`           | file types to exclude                                                                      |
+| `args`                    | list of additional arguments to pass to the hook                                           |
+| `stages`                  | run the hook to the *commit*, *push*, *commit-msg* or *manual* stage                       |
+| `additional_dependencies` | a list of dependencies that will be installed in the environment where this hooks gets run |
+| `always_run`              | whether to always run this hook or not                                                     |
+| `verbose`                 | forces the hook output to be printed                                                       |
+| `log_file`                | the hook output will additionally be written to a file                                     |
+
+
+## Commands
+
+| command                      | description                            |
+|------------------------------|----------------------------------------|
+| `pre-commit install`         | install pre-commit into your git hooks |
+| `pre-commit run --all-files` | manually run all pre-commit hooks      |
+| `pre-commit run <hook_id>`   | run the hook with the given id         |
