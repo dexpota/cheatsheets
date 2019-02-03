@@ -1,2 +1,3 @@
+<!-- vim: syntax=Markdown -->
 # Show a file at a specific version
 git show <treeish>:<path>

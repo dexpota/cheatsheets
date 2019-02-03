@@ -1,3 +1,4 @@
+<!-- vim: syntax=Markdown -->
 # Diff last commit with changes not yet staged
 git diff
 

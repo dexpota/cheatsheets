@@ -1,3 +1,4 @@
+<!-- vim: syntax=Markdown -->
 # Your branch <local> and 'origin/<remote>' have diverged
 
 git checkout <local>

@@ -1,2 +1,3 @@
+<!-- vim: syntax=Markdown -->
 # Display a short-format version 
 git status -s

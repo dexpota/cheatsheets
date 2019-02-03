@@ -1,3 +1,4 @@
+<!-- vim: syntax=Markdown -->
 # Generate requirements.txt
 pipenv lock --requirements > requirements.txt
 
