@@ -1,3 +1,4 @@
+<!-- vim: syntax=java -->
 # Basics
 :q 		quit vim
 :q! 	quit vim without saving
