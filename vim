@@ -1,4 +1,4 @@
-<!-- vim: syntax=java -->
+<!-- vim: syntax=Markdown -->
 # Basics
 :q 		quit vim
 :q! 	quit vim without saving
