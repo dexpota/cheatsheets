@@ -1,0 +1,7 @@
+# System administration
+
+## Network
+
+| command                                                                     | description                                    |
+|-----------------------------------------------------------------------------|------------------------------------------------|
+| `sudo lsof -i` <br/> `sudo netstat -lptu` <br/> `sudo netstat -tulpn` <br/> | list all the open ports and relative processes |
