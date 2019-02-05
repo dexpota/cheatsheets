@@ -1,0 +1,22 @@
+<!-- vim: syntax=Markdown -->
+# GitLab
+
+## Commands
+
+| command                          | description                         |
+|----------------------------------|-------------------------------------|
+| gitlab-ctl status                | Check the status of GitLab services |
+| gitlab-ctl restart               | Restart GitLab                      |
+| gitlab-rake gitlab:backup:create | Create a backup                     |
+
+## Backup
+
+- Configuring cron to make daily backups:
+    1. edit the configuration file `/etc/gitlab/gitlab.rb` and change
+       `backup_keep_time` to limit the lifetime of backups;
+    2. reconfigure GitLab;
+    3. add a cron job as root user `crontab -e`:
+        ```
+        # CRON=1 teels the backup script to suppress all progress output if there are no errors
+        0 2 * * * /opt/gitlab/bin/gitlab-rake gitlab:backup:create CRON=1
+        ```
