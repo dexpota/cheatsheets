@@ -1,6 +1,18 @@
 <!-- vim: syntax=Markdown -->
 # System Administration
 
+## Users and Groups
+
+| command                                 | description                                      |
+|-----------------------------------------|--------------------------------------------------|
+| groupadd <name>                         | create a new group called *name*                 |
+| usermod -a -G <group>[,<groups>] <user> | add an existing user to the group                |
+| usermod -g <group> <name>               | change the user primary group                    |
+| groups                                  | list the groups the current user is assigned to  |
+| groups <name>                           | list the groups the selected user is assigned to |
+| useradd -G <group> <name>               | create the user and assign it a group            |
+| getent group                            | list all groups on the system and their members  |
+
 ## Network
 
 - List all current open ports with relative processe using one of these
