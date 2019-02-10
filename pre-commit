@@ -12,7 +12,9 @@ pip install pre-commit
 - Create a configuration file called `.pre-commit-config.yaml`;
     - Configure the hooks to be used by your repository, see **Configuration**
       for more information.  pre-commit hooks are distributed using git
-      repository
+      repository;
+    - Run `pre-commit sample-config > .pre-commit-config.yaml` to generate a
+      sample configuration file;
 - Run `pre-commit install` to install pre-commit into your git hooks;
 - (Optionally) Run all pre-commit hooks manually `pre-commit run --all-files`,
   or just one `pre-commit run <hook_id>`;
