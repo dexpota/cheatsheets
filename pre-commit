@@ -1,6 +1,12 @@
 <!-- vim: syntax=Markdown -->
 # pre-commit
 
+## Installation
+
+```bash
+pip install pre-commit
+```
+
 ## Up and running
 
 - Create a configuration file called `.pre-commit-config.yaml`;
