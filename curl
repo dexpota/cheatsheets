@@ -1,0 +1,7 @@
+# curl
+
+- Send urlencoded data `curl --data-urlencode "name=John Doe" http://example.com`
+
+## References
+
+https://ec.haxx.se/
