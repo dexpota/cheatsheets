@@ -1,6 +1,23 @@
 <!-- vim: syntax=Markdown -->
 # Bash
 
+```bash
+# only parses the script, without running it 
+bash -n <script>
+# verbose output
+bash -v <script>
+# trace script execution
+bash -x <script>
+```
+
+```bash
+# treat unset variables as an error
+set -o nounset
+# trace script execution
+set -o xtrace
+# PS4 is expanded before each command displays, during an execution trace
+```
+
 ## Arithmetic Expansion
 It is possible to performs integer arithmetic operations using arithmetic
 expansion. The followings are three different variations on arithmetic
