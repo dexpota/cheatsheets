@@ -34,3 +34,8 @@ If you want your cheatsheet to be rendered by Github as a markdown file,
 without adding an extension, add this line on top `<!-- vim: syntax=Markdown
 -->`. According to `github-linguist`, it should be possible to do this with the
 `.gitattributes` but it doesn't seems to work at the moment.
+
+## TODO
+
+- Automatically generate the readme file with the list of cheatsheets in the
+  repository;
