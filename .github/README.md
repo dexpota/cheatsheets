@@ -1,4 +1,4 @@
-# .cheat
+.cheat
 
 - [android-studio](../android-studio)
 - [apt](../apt)
@@ -25,3 +25,12 @@
 - [terminator](../terminator)
 - [vagrant](../vagrant)
 - [vim](../vim)
+
+## Contribute
+
+### Rendering of cheatsheet on github
+
+If you want your cheatsheet to be rendered by Github as a markdown file,
+without adding an extension, add this line on top `<!-- vim: syntax=Markdown
+-->`. According to `github-linguist`, it should be possible to do this with the
+`.gitattributes` but it doesn't seems to work at the moment.
