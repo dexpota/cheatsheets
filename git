@@ -1,0 +1,7 @@
+<!-- vim: syntax=Markdown -->
+# git
+
+| command                   | description                                                          |
+|---------------------------|----------------------------------------------------------------------|
+| `git reset --soft HEAD~1` | Reset the last commit from the current branch and keep the changes   |
+| `git reset --hard HEAD~1` | Reset the last commit from the current branch and delete the changes |
