@@ -1,0 +1,15 @@
+# vim goyo
+
+# toggle Goyo with the specified dimension
+`:Goyo [dimension]`
+
+# the dimension follows this format
+`<width>[(+|-)<xoffset>][x<height>[(+|-)<yoffset>]]`
+
+# turn Goyo off
+`:Goyo!`
+
+# configuration
+`g:goyo_width`
+`g:goyo_height`
+`g:goyo_linenr`
