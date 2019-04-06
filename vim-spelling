@@ -1,0 +1,22 @@
+# vim spelling
+
+# enable spellchecking
+`set spell!`
+
+# navigate spelling errors
+`]s` next error or warning
+`[s` prev error or warning
+`]S` next error (skip warning)
+`[S` prev error (skip warning)
+
+# ask for a suggestion
+`z=`
+
+# add and remove a word from the dictionary
+`zg` and `zug`
+
+# mark and remove a word as misspelled
+`zw` and `zuw`
+
+# change spellchecking language
+`set spelllang=es`
