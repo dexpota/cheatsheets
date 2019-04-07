@@ -5,7 +5,7 @@
 |-----------------------|-------------------------|-------------------------|
 | generate code         | Command + N             | Alt + Insert            |
 | override method       | Command + O             | Control + O             |
-| code completition     | Command + Space         | Control + Space         |
+| code completions     | Command + Space         | Control + Space         |
 | quick documentation   | Command + J             | Control + Q             |
 | recent files dialog   | Command + E             | Control + E             |
 | fold code block       | Command + -             | Control + -             |
@@ -14,6 +14,33 @@
 | complete statement    | Command + Shift + Enter | Control + Shift + Enter |
 | surround with tag     | Command + Alt + T       |                         |
 | open 'select in' menu | Alt + F1                | Alt + F1                |
+
+
+## Code generation
+
+| description        | mac         | windows and linux |
+|--------------------|-------------|-------------------|
+| use live templates | Command + j | Control + j       |
+
+
+## Editing
+
+| description                 | mac                 | windows and linux   |
+|-----------------------------|---------------------|---------------------|
+| choose from the last copies | Command + Shift + v | Control + Shift + v |
+| edit multiple occurrences | Control + g | Alt + j |
+
+## Navigation
+
+| description            | mac                  | windows and linux   |
+|------------------------|----------------------|---------------------|
+| open a class           | Command + o          | Control + n         |
+| open any file          | Command + Shift + o  | Control + Shift + n |
+| open a symbol          | Command + Option + o | Alt + Shift + n     |
+| go to implementation   | Command + Option + b | Control + Alt + b   |
+| go to declaration      | Command + b          | Control + b         |
+| go to type declaration | Control + Shift + b  | Control + Shift + b |
+
 
 ## Search
 
