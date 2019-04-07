@@ -20,6 +20,7 @@
 | description      | mac | windows and linux |
 |------------------|-----|-------------------|
 | deploy on target |     | Shift + F10       |
+| build project    |     | Control + F9      |
 
 ## Code generation
 
