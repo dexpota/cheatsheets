@@ -5,7 +5,7 @@
 |-----------------------|-------------------------|-------------------------|
 | generate code         | Command + N             | Alt + Insert            |
 | override method       | Command + O             | Control + O             |
-| code completions     | Command + Space         | Control + Space         |
+| code completions      | Command + Space         | Control + Space         |
 | quick documentation   | Command + J             | Control + Q             |
 | recent files dialog   | Command + E             | Control + E             |
 | fold code block       | Command + -             | Control + -             |
@@ -15,6 +15,11 @@
 | surround with tag     | Command + Alt + T       |                         |
 | open 'select in' menu | Alt + F1                | Alt + F1                |
 
+## Generation and running
+
+| description      | mac | windows and linux |
+|------------------|-----|-------------------|
+| deploy on target |     | Shift + F10       |
 
 ## Code generation
 
