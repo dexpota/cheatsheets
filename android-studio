@@ -17,10 +17,11 @@
 
 ## Generation and running
 
-| description      | mac | windows and linux |
-|------------------|-----|-------------------|
-| deploy on target |     | Shift + F10       |
-| build project    |     | Control + F9      |
+| description          | mac          | windows and linux |
+|----------------------|--------------|-------------------|
+| deploy on target     | Control + R  | Shift + F10       |
+| stop the application | Command + F2 |                   |
+| build project        |              | Control + F9      |
 
 ## Code generation
 
@@ -34,7 +35,7 @@
 | description                 | mac                 | windows and linux   |
 |-----------------------------|---------------------|---------------------|
 | choose from the last copies | Command + Shift + v | Control + Shift + v |
-| edit multiple occurrences | Control + g | Alt + j |
+| edit multiple occurrences   | Control + g         | Alt + j             |
 
 ## Navigation
 
