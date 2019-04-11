@@ -17,11 +17,12 @@
 
 ## Generation and running
 
-| description          | mac          | windows and linux |
-|----------------------|--------------|-------------------|
-| deploy on target     | Control + R  | Shift + F10       |
-| stop the application | Command + F2 |                   |
-| build project        |              | Control + F9      |
+| description                | mac          | windows and linux |
+|----------------------------|--------------|-------------------|
+| deploy on target and debug |              | Shift + F9        |
+| deploy on target           | Control + R  | Shift + F10       |
+| stop the application       | Command + F2 |                   |
+| build project              |              | Control + F9      |
 
 ## Code generation
 
