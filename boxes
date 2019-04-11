@@ -1,0 +1,4 @@
+# boxes
+
+# list all available box designs in the config file
+boxes -l
