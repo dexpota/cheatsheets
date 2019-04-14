@@ -41,6 +41,12 @@ vagrant ssh
 | vagrant ssh         | connect to the machine via SSH                                                  |
 | vagrant ssh BOXNAME | connect to the machine with the given box's name, this works from any directory |
 
+## Miscelloneous
+
+| commmand                        | description                              |
+|---------------------------------|------------------------------------------|
+| vagrant global-status [--prune] | check the status of all vagrant machines |
+
 ## Configurations
 
 ### Enable GUI
