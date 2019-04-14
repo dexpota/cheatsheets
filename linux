@@ -1,0 +1,15 @@
+# linux commands
+
+## random
+
+## bash-only, you can use $RANDOM variable to get a number between 0 and 32767
+$RANDOM
+## get a number between 0 and n with
+$((RANDOM % n))
+
+## shuffle the lines of a file with shuf and get the first n lines
+cat files.txt | shuf -n <n>
+## generate a sequence of n shuffled numbers and pick the first one
+shuf -i 1-10 -n1
+## generate a sequence of random numbers between 1 and 10 and pick only the first one
+shuf -i 1-10 -r -n1
