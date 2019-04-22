@@ -1,4 +1,9 @@
+[1]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[license]: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
+
 .cheat
+
+[![license badge][license]][1]
 
 - [android-studio](../android-studio)
 - [apt](../apt)
@@ -25,6 +30,10 @@
 - [terminator](../terminator)
 - [vagrant](../vagrant)
 - [vim](../vim)
+
+## License
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][1].
 
 ## Contribute
 
