@@ -1,0 +1,4 @@
+# find
+
+# find all directories that don't contain a specific subdirectory
+find . -maxdepth 1 -type d -exec test ! -d "{}/<subdirectory>" \; -print
