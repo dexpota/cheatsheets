@@ -12,13 +12,13 @@ vagrant up
 vagrant ssh
 ```
 
-## Creating a Virtual Machine
+## Creating and destroying Virtual Machine
 
 | command                        | description                                                                                                    |
 |--------------------------------|----------------------------------------------------------------------------------------------------------------|
 | vagrant init                   | Create a Vagrant environment with an initial Vagrantfile.                                                      |
 | vagrant init [<config.vm.box>] | Specify the box to initilize the Vagrantfile with. To find a box, go to https://app.vagrantup.com/boxes/search |
-
+| vagrant destroy <id>           | Destroy the vagrant machine specified                                                                          |
 ## Starting a Virtual Machine
 
 | command        | description                                                  |
