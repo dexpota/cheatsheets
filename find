@@ -2,3 +2,9 @@
 
 # find all directories that don't contain a specific subdirectory
 find . -maxdepth 1 -type d -exec test ! -d "{}/<subdirectory>" \; -print
+
+# exclude hidden files and directories from the results
+find . -not -path '*/\.*'
+
+# exclude hidden files and prune the search through hidden directories
+find . -type d -path '*/\.*' -prune -o -not -name '.*' -type f -print
