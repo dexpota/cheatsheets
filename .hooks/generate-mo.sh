@@ -2,6 +2,9 @@
 
 gitroot=$(git rev-parse --show-toplevel)
 
+DISCLAIMER="<!-- DO NOT MODIFY THIS FILE, THIS FILE IS AUTO-GENERATED -->"
+export DISCLAIMER
+
 CHEAT_LISTING=$(cd "$gitroot" && find . -not -path "*/\.*" -maxdepth 1 -type f -exec basename {} \; | sort | awk 'NF{print "[" $0  "]" "(" $0 ");"}')
 export CHEAT_LISTING
 
