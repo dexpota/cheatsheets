@@ -1,35 +1,44 @@
 [1]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [license]: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
 
-.cheat
+#.cheat
 
 [![license badge][license]][1]
 
-- [android-studio](../android-studio)
-- [apt](../apt)
-- [bash](../bash)
-- [bash-if](../bash-if)
-- [bash-shortcuts](../bash-shortcuts)
-- [bash-test](../bash-test)
-- [bash-tilde-expansion](../bash-tilde-expansion)
-- [clion](../clion)
-- [feh](../feh)
-- [git-diff](../git-diff)
-- [git-rebase](../git-rebase)
-- [git-show](../git-show)
-- [git-status](../git-status)
-- [git-submodule](../git-submodule)
-- [jq](../jq)
-- [markdown](../markdown)
-- [pre-commit](../pre-commit)
-- [pycharm](../pycharm)
-- [python-distribution](../python-distribution)
-- [python-pipenv](../python-pipenv)
-- [regex-recipies](../regex-recipies)
-- [taskwarrior](../taskwarrior)
-- [terminator](../terminator)
-- [vagrant](../vagrant)
-- [vim](../vim)
+-[android-studio](android-studio);
+-[apt](apt);
+-[bash](bash);
+-[bash-if](bash-if);
+-[bash-shortcuts](bash-shortcuts);
+-[bash-test](bash-test);
+-[bash-tilde-expansion](bash-tilde-expansion);
+-[boxes](boxes);
+-[clion](clion);
+-[curl](curl);
+-[feh](feh);
+-[find](find);
+-[git](git);
+-[git-diff](git-diff);
+-[gitlab](gitlab);
+-[git-rebase](git-rebase);
+-[git-show](git-show);
+-[git-status](git-status);
+-[git-submodule](git-submodule);
+-[jq](jq);
+-[linux](linux);
+-[markdown](markdown);
+-[pre-commit](pre-commit);
+-[pycharm](pycharm);
+-[python-distribution](python-distribution);
+-[python-pipenv](python-pipenv);
+-[regex-recipies](regex-recipies);
+-[sysadmin](sysadmin);
+-[taskwarrior](taskwarrior);
+-[terminator](terminator);
+-[vagrant](vagrant);
+-[vim](vim);
+-[vim-goyo](vim-goyo);
+-[vim-spelling](vim-spelling);
 
 ## License
 
