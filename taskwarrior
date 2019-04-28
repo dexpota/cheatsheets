@@ -39,7 +39,7 @@ Filters are used to specify a set of tasks, it is possible to filter
 ## Examples
 
 ```bash
-# list all task assigned to the 'home' project 
+# list all task assigned to the 'home' project
 task project:home list
 ```
 
@@ -48,8 +48,13 @@ task project:home list
 task +urgent list
 ```
 
+```bash
+# list all task but the ones included in the project C
+task project.not:C
+```
+
 # Attributes
-> Some of taskwarrior's core attributes, for a full list run the command `task _columns` 
+> Some of taskwarrior's core attributes, for a full list run the command `task _columns`
 
 | attribute       | description                      |
 |-----------------|----------------------------------|
