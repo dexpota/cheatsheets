@@ -1,0 +1,6 @@
+# gitlab api
+
+# pull all projects visible to a user
+TOKEN="PASTE_YOUR_PRIVATE_TOKEN_HERE";
+JSON_KEY="ssh_url_to_repo";
+curl --header "PRIVATE-TOKEN: $TOKEN" http://gitlab.com/api/v3/projects/visible?per_page=100 | grep -o "\"$JSON_KEY\":[^ ,]\+" | awk -F ':' '{printf "ssh://"; for (i=2; i<NF; i++) printf $i "/"; print $NF}' | xargs -L1 git clone`
