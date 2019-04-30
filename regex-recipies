@@ -1,5 +1,11 @@
 <!-- vim: syntax=Markdown -->
+
 # Match a markdown code block.
 ```regex
 ^(([ \t]*`{3,4})([^\n]*)([\s\S]+?)(^[ \t]*\2))
+```
+
+# Match the include directive of the C/C++ pre-processor
+```regex
+^\s*\#include\s+(["<][^">]+[">])
 ```
