@@ -6,3 +6,5 @@
 | `git reset --soft HEAD~1` | Rewind your current HEAD to the previous commit and preserves the changes in your working directory |
 | `git reset --hard HEAD~1` | Rewind your current HEAD to the previous commit and drop the changes                                |
 | `git rm --cached <file>`  | Remove a file from the index and keeps it in the local filesystem.                                  |
+| `git log --oneline --graph --decorate --all $(git reflog show --format="%h" stash)` | Nice looking git log completed with stashes |
+| `git checkout -b new-branch <ref>` | Checkout and create a new branch |
