@@ -5,3 +5,4 @@
 |---------------------------|-----------------------------------------------------------------------------------------------------|
 | `git reset --soft HEAD~1` | Rewind your current HEAD to the previous commit and preserves the changes in your working directory |
 | `git reset --hard HEAD~1` | Rewind your current HEAD to the previous commit and drop the changes                                |
+| `git rm --cached <file>`  | Remove a file from the index and keeps it in the local filesystem.                                  |
