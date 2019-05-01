@@ -1,0 +1,18 @@
+# bpkg
+> Lightweight bash package manager
+
+# Up and running
+```bash
+curl -Lo- "https://raw.githubusercontent.com/bpkg/bpkg/master/setup.sh" | bash
+```
+
+# Local or global installation of packges
+```bash
+bpkg install term  # locally installed from github.com/bpkg/term into ~/deps
+bpkg install -g term  # globally installed from github.com/bpkg/term into /usr/local/bin
+```
+
+# Specify a version
+```bash
+bpkg install jwerle/suggest.sh@0.0.1 -g  # globally install from github.com/jwerle/suggest.sh
+```
