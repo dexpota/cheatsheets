@@ -1,0 +1,4 @@
+#newsboat
+
+# Feed format
+<url> [<tag1> <tag2> ...]
