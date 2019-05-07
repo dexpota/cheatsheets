@@ -9,7 +9,8 @@
 | apt upgrade                   | upgrade installed packages                    |
 | apt install NAME[=VERSION]    | install the specific version of the package   |
 | apt remove NAME               | remove the package                            |
-| apt purge NAME                | remove the package and its configuration iles |
+| apt purge NAME                | remove the package and its configuration files|
+| apt remove --purge <packagename> | |
 | apt search QUERY              | search the packages that match QUERY          |
 | apt search --names-only QUERY | search all package's names that match QUERY   |
 | apt show PACKAGE              | show more information about PACKAGE           |
