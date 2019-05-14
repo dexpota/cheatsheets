@@ -1,0 +1,30 @@
+# virtualenvwrapper
+
+> A tool to work with virtual environments.
+
+## Work on a virtual environment.
+```bash
+workon <name>
+```
+
+## Stop working on a virtual environment.
+```bash
+deactivate
+```
+
+## List all virtual environments.
+```bash
+# -l long mode
+# -b brief mode
+lsvirtualenv [-l|-b]
+```
+
+## Destroy a virtual environment.
+```bash
+rmvirtualenv <name>
+```
+
+## Copy a virtual environment.
+```bash
+cpvirtualenv <name>
+```
