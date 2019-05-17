@@ -24,11 +24,21 @@
 | stop the application       | Command + F2 |                   |
 | build project              |              | Control + F9      |
 
+## Debugging
+
+| description                       | mac                  | windows and linux |
+|-----------------------------------|----------------------|-------------------|
+| add breakpoint at cursor position | Command + F8         |                   |
+| show all breakpoints              | Command + Shift + F8 |
+
+
 ## Code generation
 
 | description        | mac         | windows and linux |
 |--------------------|-------------|-------------------|
+| generate code      | Command + N | Alt + Insert      |
 | use live templates | Command + j | Control + j       |
+
 
 
 ## Editing
