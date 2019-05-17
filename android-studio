@@ -19,17 +19,17 @@
 
 | description                | mac          | windows and linux |
 |----------------------------|--------------|-------------------|
-| deploy on target and debug |              | Shift + F9        |
+| deploy on target and debug | Control + D  | Shift + F9        |
 | deploy on target           | Control + R  | Shift + F10       |
 | stop the application       | Command + F2 |                   |
 | build project              |              | Control + F9      |
 
 ## Debugging
 
-| description                       | mac                  | windows and linux |
-|-----------------------------------|----------------------|-------------------|
-| add breakpoint at cursor position | Command + F8         |                   |
-| show all breakpoints              | Command + Shift + F8 |
+| description                          | mac                  | windows and linux |
+|--------------------------------------|----------------------|-------------------|
+| toogle breakpoint at cursor position | Command + F8         |                   |
+| show all breakpoints                 | Command + Shift + F8 |                   |
 
 
 ## Code generation
