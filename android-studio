@@ -1,6 +1,8 @@
 <!-- vim: syntax=Markdown -->
 # Shortcuts
 
+> You can find some of these shortcuts inside the keymap reference (Help -> Keymap Reference.)
+
 | description           | mac                     | windows and linux       |
 |-----------------------|-------------------------|-------------------------|
 | generate code         | Command + N             | Alt + Insert            |
@@ -31,34 +33,41 @@
 | toogle breakpoint at cursor position | Command + F8         |                   |
 | show all breakpoints                 | Command + Shift + F8 |                   |
 
-
-## Code generation
-
-| description        | mac         | windows and linux |
-|--------------------|-------------|-------------------|
-| generate code      | Command + N | Alt + Insert      |
-| use live templates | Command + j | Control + j       |
-
-
-
 ## Editing
 
 | description                 | mac                 | windows and linux   |
 |-----------------------------|---------------------|---------------------|
 | choose from the last copies | Command + Shift + v | Control + Shift + v |
 | edit multiple occurrences   | Control + g         | Alt + j             |
+| expand selection | | Control + W |
+| duplicate line | | Control + D |
+| remove line | | Control + Y |
+| comment line | | Control + / |
+
+### Code generation
+
+| description        | mac         | windows and linux |
+|--------------------|-------------|-------------------|
+| basic code completition | | Control + Space |
+| use live templates | Command + j | Control + j       |
+| complete statement | | Control + Shift + Enter |
 
 ## Navigation
 
 | description            | mac                  | windows and linux   |
 |------------------------|----------------------|---------------------|
+| switches between tabs | | Control + Tab |
+| view recent files | | Control + E |
 | open a class           | Command + o          | Control + n         |
 | open any file          | Command + Shift + o  | Control + Shift + n |
 | open a symbol          | Command + Option + o | Alt + Shift + n     |
-| go to implementation   | Command + Option + b | Control + Alt + b   |
 | go to declaration      | Command + b          | Control + b         |
 | go to type declaration | Control + Shift + b  | Control + Shift + b |
-
+| go to implementation   | Command + Option + b | Control + Alt + b   |
+| show usages | | Control + Alt + F7 |
+| structure view popup | | Control + F12 |
+| goto line || Control + G |
+| goto error or warning || F2 |
 
 ## Search
 
@@ -72,5 +81,6 @@
 
 | description        | mac               | windows and linux |
 |--------------------|-------------------|-------------------|
-| rename             | Shift + F6        |                   |
-| extract expression | Command + Alt + V |                   |
+| rename             | Shift + F6        | Shift + F6        |
+| extract expression | Command + Alt + V | Control + Alt + V |
+| extract method | | Control + Alt + M |
