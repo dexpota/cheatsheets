@@ -5,7 +5,6 @@
 
 | description           | mac                     | windows and linux       |
 |-----------------------|-------------------------|-------------------------|
-| generate code         | Command + N             | Alt + Insert            |
 | override method       | Command + O             | Control + O             |
 | code completions      | Command + Space         | Control + Space         |
 | quick documentation   | Command + J             | Control + Q             |
@@ -17,21 +16,21 @@
 | surround with tag     | Command + Alt + T       |                         |
 | open 'select in' menu | Alt + F1                | Alt + F1                |
 
-## Generation and running
+## Running
 
-| description                | mac          | windows and linux |
+| Description                | OSX       | Windows and Linux |
 |----------------------------|--------------|-------------------|
-| deploy on target and debug | Control + D  | Shift + F9        |
-| deploy on target           | Control + R  | Shift + F10       |
-| stop the application       | Command + F2 |                   |
-| build project              |              | Control + F9      |
+| Deploy on target           | Control + R  | Shift + F10       |
+| Deploy on target and debug | Control + D  | Shift + F9        |
+| Stop the application       | Command + F2 |                   |
+| Build the project              |              | Control + F9      |
 
 ## Debugging
 
-| description                          | mac                  | windows and linux |
+| Description                          | OSX                  | Windows and Linux |
 |--------------------------------------|----------------------|-------------------|
-| toogle breakpoint at cursor position | Command + F8         |                   |
-| show all breakpoints                 | Command + Shift + F8 |                   |
+| Toogle breakpoint | Command + F8         |                   |
+| Show all breakpoints                 | Command + Shift + F8 |                   |
 
 ## Editing
 
@@ -44,42 +43,43 @@
 | remove line | | Control + Y |
 | comment line | | Control + / |
 
-### Code generation
+## Code Generation
 
-| description        | mac         | windows and linux |
+| Description        | OSX         | Windows and Linux |
 |--------------------|-------------|-------------------|
 | basic code completition | | Control + Space |
-| use live templates | Command + j | Control + j       |
 | complete statement | | Control + Shift + Enter |
+| generate code         | Command + N             | Alt + Insert            |
+| use live templates | Command + j | Control + j       |
 
-## Navigation
+## Code Navigation
 
-| description            | mac                  | windows and linux   |
+| Description            | OSX                  | Windows and Linux   |
 |------------------------|----------------------|---------------------|
-| switches between tabs | | Control + Tab |
-| view recent files | | Control + E |
-| open a class           | Command + o          | Control + n         |
-| open any file          | Command + Shift + o  | Control + Shift + n |
-| open a symbol          | Command + Option + o | Alt + Shift + n     |
-| go to declaration      | Command + b          | Control + b         |
-| go to type declaration | Control + Shift + b  | Control + Shift + b |
-| go to implementation   | Command + Option + b | Control + Alt + b   |
-| show usages | | Control + Alt + F7 |
-| structure view popup | | Control + F12 |
-| goto line || Control + G |
-| goto error or warning || F2 |
+| Switches between tabs | | Control + Tab |
+| Search recent files | | Control + E |
+| Search a class           | Command + o          | Control + n         |
+| Search any file          | Command + Shift + o  | Control + Shift + n |
+| Search symbol     | Command + Alt + O   | Control + Alt + Shift + N |
+| Open a symbol          | Command + Option + o | Alt + Shift + n     |
+| Go to declaration      | Command + b          | Control + b         |
+| Go to type declaration | Control + Shift + b  | Control + Shift + b |
+| Go to implementation   | Command + Option + b | Control + Alt + b   |
+| Find usages | | Control + Alt + F7 |
+| Open Structure view | | Control + F12 |
+| Goto line || Control + G |
+| Goto error or warning || F2 |
 
 ## Search
 
-| description       | mac                 | windows and linux         |
+| Description       | OSX                 | Windows and Linux         |
 |-------------------|---------------------|---------------------------|
-| search everywhere | 2 x Shift           | 2 x Shift                 |
-| search actions    | Command + Shift + A | Control + Shift + A       |
-| search symbol     | Command + Alt + O   | Control + Alt + Shift + N |
+| Search everywhere | Shift (x2)           | Shift (x2)                 |
+| Search actions    | Command + Shift + A | Control + Shift + A       |
 
 ## Refactoring
 
-| description        | mac               | windows and linux |
+| Description        | OSX               | Windows and Linux |
 |--------------------|-------------------|-------------------|
 | rename             | Shift + F6        | Shift + F6        |
 | extract expression | Command + Alt + V | Control + Alt + V |
