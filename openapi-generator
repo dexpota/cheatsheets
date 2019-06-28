@@ -1,0 +1,18 @@
+# openapi-generator
+
+# jar installation
+```
+wget http://central.maven.org/maven2/org/openapitools/openapi-generator-cli/4.0.2/openapi-generator-cli-4.0.2.jar -O openapi-generator-cli.jar
+java -jar openapi-generator-cli.jar --help
+```
+
+# launch script installation
+```
+curl https://raw.githubusercontent.com/OpenAPITools/openapi-generator/master/bin/utils/openapi-generator-cli.sh > openapi-generator-cli
+chmod u+x openapi-generator-cli
+```
+
+# generate a client library
+```
+java -jar openapi-generator-cli.jar generate -i openapi.json  -g bash -o bash
+```
