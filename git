@@ -9,3 +9,6 @@
 | `git log --oneline --graph --decorate --all $(git reflog show --format="%h" stash)` | Nice looking git log completed with stashes                                                         |
 | `git checkout -b new-branch <ref>`                                                  | Checkout and create a new branch                                                                    |
 | `git checkout --track origin/<ref>`                                                 | Create a new local branch from a remote one                                                         |
+
+# stash untracked files and unstaged files
+$ git stash -k -u
