@@ -1,14 +1,24 @@
 <!-- vim: syntax=Markdown -->
 # git
 
-| command                                                                             | description                                                                                         |
-|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| `git reset --soft HEAD~1`                                                           | Rewind your current HEAD to the previous commit and preserves the changes in your working directory |
-| `git reset --hard HEAD~1`                                                           | Rewind your current HEAD to the previous commit and drop the changes                                |
-| `git rm --cached <file>`                                                            | Remove a file from the index and keeps it in the local filesystem.                                  |
-| `git log --oneline --graph --decorate --all $(git reflog show --format="%h" stash)` | Nice looking git log completed with stashes                                                         |
-| `git checkout -b new-branch <ref>`                                                  | Checkout and create a new branch                                                                    |
-| `git checkout --track origin/<ref>`                                                 | Create a new local branch from a remote one                                                         |
+# Create a new local branch from a remote one
+$ git checkout --track origin/<ref>
 
-# stash untracked files and unstaged files
+# Checkout and create a new branch
+$ git checkout -b new-branch <ref>
+
+# Nice looking git log completed with stashes
+$ git log --oneline --graph --decorate --all $(git reflog show --format="%h" stash)
+
+# Remove a file from the index and keeps it in the local filesystem
+$ git rm --cached <file>
+
+# Rewind your current HEAD to the previous commit and preserves the changes in
+# your working directory
+$ git reset --soft HEAD~1
+
+# Rewind your current HEAD to the previous commit and drop the changes
+$ git reset --hard HEAD~1
+
+# Stash untracked files and unstaged files
 $ git stash -k -u
