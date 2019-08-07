@@ -1,3 +1,4 @@
+<!-- vim: syntax=Markdown -->
 # git
 
 Create a new local branch from a remote one
@@ -14,10 +15,21 @@ $ git rm --cached <file>
 
 Rewind your current HEAD to the previous commit and preserves the changes in
 your working directory
+```
 $ git reset --soft HEAD~1
+```
 
 Rewind your current HEAD to the previous commit and drop the changes
 $ git reset --hard HEAD~1
 
 Stash untracked files and unstaged files
 $ git stash -k -u
+
+Diff last commit with changes not yet staged
+$ git diff
+
+Diff last commit with staged changes
+$ git diff --staged
+
+Diff last commit with staged changes (synonym of --staged)
+$ git diff --cached
