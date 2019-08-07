@@ -51,3 +51,10 @@ Diff last commit with staged changes (synonym of --staged)
 ```
 $ git diff --cached
 ```
+
+<!-- id: 10 -->
+Your branch <local> and 'origin/<remote>' have diverged
+```
+$ git checkout <local>
+$ git rebase origin/<remote>
+```
