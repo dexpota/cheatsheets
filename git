@@ -52,9 +52,59 @@ Diff last commit with staged changes (synonym of --staged)
 $ git diff --cached
 ```
 
-<!-- id: 10 -->
-Your branch <local> and 'origin/<remote>' have diverged
+Display a short-format version of your local repository status
 ```
-$ git checkout <local>
+$ git status -s
+```
+
+<!-- id: 10 -->
+Rebase your current branch onto <target> branch
+```
+$ git checkout <branch>
 $ git rebase origin/<remote>
+```
+
+Show a file at a specific version
+```
+git show <treeish>:<path>
+```
+
+Add a submodule to your repository
+```
+$ git submodule add <repository> [<path>]
+```
+
+Add a submodule to your repository with the given logical name
+```
+$ git submodule add <repository> [<path>] --name <logical>
+```
+
+List all repository's submodules
+```
+$ git submodule status
+```
+
+Initialize the submodules recorded in the index
+```
+$ git submodule init
+```
+
+Clone the submodules
+```
+$ git submodule update
+```
+
+Checkout the submodules to the remote tracking branch
+```
+$ git submodule update --remote
+```
+
+Initialize and clone the submodule
+```
+$ git submodule update --init
+```
+
+Clone a repository and download all submodules
+```
+$ git clone --recursive <url>
 ```
