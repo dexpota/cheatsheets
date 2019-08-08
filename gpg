@@ -1,0 +1,28 @@
+# gpg
+
+Generate a key
+$ gpg --expert --gen-key
+
+Generate a revocation certificate and write it to a file
+$ gpg --gen-revoke <key> > rev-certificate.asc
+
+Edit a key
+$ gpg --edit-key <key>
+
+Delete secret key
+$ gpg --delete-secret-key <key>
+
+Export a backup of the secret keys
+$ gpg --export-secret-key <key> > secret.pgp
+
+Import secret keys from a backup
+$ gpg --import << secret.pgp
+
+Export the public key
+$ gpg --armor --export <key> > public.asc
+
+List public keys
+$ gpg -k
+
+List private keys
+$ gpg -K
