@@ -1,0 +1,6 @@
+type: terminal-command
+cheats:
+  - description: Create a new local branch from a remote one
+    command: git checkout --track origin/<ref>
+  - description: Checkout and create a new branch
+    command: git checkout -b new-branch <ref>
