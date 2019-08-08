@@ -108,3 +108,8 @@ Clone a repository and download all submodules
 ```
 $ git clone --recursive <url>
 ```
+
+Return repository root directory
+```
+$ git rev-parse --show-toplevel
+```
