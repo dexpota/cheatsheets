@@ -5,12 +5,17 @@ from pygments.formatters import TerminalFormatter
 from pygments import highlight
 
 
-def humanize(x):
+def humanize(cheat):
     """
     Renders a human readable cheat.
     """
-    print(x["description"])
-    print(highlight(x["command"], BashLexer(), TerminalFormatter()))
+    description = cheat["description"]
+    command = cheat["command"]
+
+    print(description)
+    print()
+    print("\t" + highlight(command, BashLexer(), TerminalFormatter()))
+    print()
 
 
 if __name__ == "__main__":
