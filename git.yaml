@@ -4,3 +4,44 @@ cheats:
     command: git checkout --track origin/<ref>
   - description: Checkout and create a new branch
     command: git checkout -b new-branch <ref>
+  - description: Nice looking git log completed with stashes
+    command: git log --oneline --graph --decorate --all $(git reflog show --format="%h" stash)
+  - description: Remove a file from the index and keeps it in the local filesystem
+    command: git rm --cached <file>
+  - description: Rewind your current HEAD to the previous commit and preserves the changes in your working directory
+    command: git reset --soft HEAD~1
+  - description: Rewind your current HEAD to the previous commit and drop the changes
+    command: git reset --hard HEAD~1
+  - description: Stash untracked files and unstaged files
+    command: git stash -k -u
+  - description: Diff last commit with changes not yet staged
+    command: git diff
+  - description: Diff last commit with staged changes
+    command: git diff --staged
+  - description: Diff last commit with staged changes (synonym of --staged)
+    command: git diff --cached
+  - description: Display a short-format version of your local repository status
+    command: git status -s
+  - description: Rebase your current branch onto <target> branch
+    command: "
+git checkout <branch>
+git rebase origin/<remote>
+"
+  - description: Show a file at a specific version
+    command: git show <treeish>:<path>
+  - description: Add a submodule to your repository
+    command: git submodule add <repository> [<path>]
+  - description: Add a submodule to your repository with the given logical name
+    command: git submodule add <repository> [<path>] --name <logical>
+  - description: List all repository's submodules
+    command: git submodule status
+  - description: Initialize the submodules recorded in the index
+    command: git submodule init
+  - description: Clone the submodules
+    command: git submodule update
+  - description: Checkout the submodules to the remote tracking branch
+    command: git submodule update --remote
+  - description: Initialize and clone the submodule
+    command: git submodule update --init
+  - description: Clone a repository and download all submodules
+    command: git clone --recursive <url>
