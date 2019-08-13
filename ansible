@@ -1,4 +1,6 @@
 # ansible
 
 Execute a command on a host
+```
 $ ansible <host> -m command -a "command to execute"
+```
