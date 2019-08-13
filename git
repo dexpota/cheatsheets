@@ -113,3 +113,8 @@ Return repository root directory
 ```
 $ git rev-parse --show-toplevel
 ```
+
+Amend the last commit without editing the message
+```
+$ git commit --amend --no-edit
+```
