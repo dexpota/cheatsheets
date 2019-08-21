@@ -89,9 +89,10 @@ Initialize the submodules recorded in the index
 $ git submodule init
 ```
 
-Clone the submodules
+Update the registered submodules, i.e. clone missing submodules and checkout
+the commit specified in the index of the superproject
 ```
-$ git submodule update
+$ git submodule update [<path> ...]
 ```
 
 Checkout the submodules to the remote tracking branch
