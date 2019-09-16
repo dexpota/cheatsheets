@@ -13,10 +13,10 @@ Delete secret key
 $ gpg --delete-secret-key <key>
 
 Export a backup of the secret keys
-$ gpg --export-secret-key <key> > secret.pgp
+$ gpg --export-secret-key <key> > secretkey-gpg.key
 
 Import secret keys from a backup
-$ gpg --import << secret.pgp
+$ gpg --import secret-key-gpg.key
 
 Export the public key
 $ gpg --armor --export <key> > public.asc
