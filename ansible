@@ -1,6 +1,11 @@
 # ansible
 
 Execute a command on a host
+```bash
+ansible <host> -m command -a "command to execute"
 ```
-$ ansible <host> -m command -a "command to execute"
+
+View module documentation
+```bash
+ansible-doc <module>
 ```
