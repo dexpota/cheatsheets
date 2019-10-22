@@ -1,6 +1,11 @@
 <!-- vim: syntax=Markdown -->
 # Vagrant
 
+Get information about SSH config
+```
+vagrant ssh-config
+```
+
 ## Up and running
 
 ```bash
