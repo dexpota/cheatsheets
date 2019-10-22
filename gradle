@@ -1,0 +1,6 @@
+# gradle
+
+List available tasks of a project
+```
+gradle -q tasks [--all]
+```
