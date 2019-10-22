@@ -1,6 +1,11 @@
 # tlmgr
 
+Install a package
+```
+tlmgr install <package>
+```
+
 Search for a file in all packages
 ```
-tlmgr search --global --file algorithm
+tlmgr search --global --file <file>
 ```
