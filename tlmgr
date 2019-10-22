@@ -1,0 +1,6 @@
+# tlmgr
+
+Search for a file in all packages
+```
+tlmgr search --global --file algorithm
+```
