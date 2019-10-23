@@ -54,21 +54,24 @@
 
 ## Code Navigation
 
-| Description            | OSX                  | Windows and Linux         |
-|------------------------|----------------------|---------------------------|
-| Switches between tabs  |                      | Control + Tab             |
-| Search recent files    |                      | Control + E               |
-| Search a class         | Command + o          | Control + n               |
-| Search any file        | Command + Shift + o  | Control + Shift + n       |
-| Search symbol          | Command + Alt + O    | Control + Alt + Shift + N |
-| Open a symbol          | Command + Option + o | Alt + Shift + n           |
-| Go to declaration      | Command + b          | Control + b               |
-| Go to type declaration | Control + Shift + b  | Control + Shift + b       |
-| Go to implementation   | Command + Option + b | Control + Alt + b         |
-| Find usages            |                      | Control + Alt + F7        |
-| Open Structure view    |                      | Control + F12             |
-| Goto line              |                      | Control + G               |
-| Goto error or warning  |                      | F2                        |
+| Description                           | OSX                          | Windows and Linux            |
+|---------------------------------------|------------------------------|------------------------------|
+| Switches between tabs                 |                              | Control + Tab                |
+| Recently opened files                 | Command + E                  | Control + E                  |
+| Recently edited files                 | Command + Shift + E          | Control + Shift + E          |
+| Navigate back and forward             | Command + Alt + Left (Right) | Control + Alt + Left (Right) |
+| Search a class                        | Command + o                  | Control + n                  |
+| Search any file                       | Command + Shift + o          | Control + Shift + n          |
+| Search symbol                         | Command + Alt + O            | Control + Alt + Shift + N    |
+| Open a symbol                         | Command + Option + o         | Alt + Shift + n              |
+| Go to declaration                     | Command + b                  | Control + b                  |
+| Go to type declaration                | Control + Shift + b          | Control + Shift + b          |
+| Go to implementation                  | Command + Option + b         | Control + Alt + b            |
+| Find usages                           |                              | Control + Alt + F7           |
+| Open Structure view                   |                              | Control + F12                |
+| Goto line                             |                              | Control + G                  |
+| Goto error or warning                 |                              | F2                           |
+| Move to next and previous declaration | Control + Up (Down)          |                              |
 
 ## Search
 
