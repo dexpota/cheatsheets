@@ -16,6 +16,17 @@ Nice looking git log completed with stashes
 $ git log --oneline --graph --decorate --all $(git reflog show --format="%h" stash)
 ```
 
+Oneline log with a list of changed files
+```
+$ git log --name-status --pretty="%h%x09%ad%x09%ar%x09%s" --date=short
+```
+
+Show path and status of changed files
+```
+$ git log --name-status
+```
+
+
 Remove a file from the index and keeps it in the local filesystem
 ```
 $ git rm --cached <file>
@@ -118,4 +129,9 @@ $ git rev-parse --show-toplevel
 Amend the last commit without editing the message
 ```
 $ git commit --amend --no-edit
+```
+
+Remove remote tracking branches
+```
+$ git remote prune origin
 ```
