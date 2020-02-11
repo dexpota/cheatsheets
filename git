@@ -43,7 +43,7 @@ Rewind your current HEAD to the previous commit and drop the changes
 $ git reset --hard HEAD~1
 ```
 
-Stash untracked files and unstaged files
+Stash untracked files and unstaged files but keeps everything staged
 ```
 $ git stash -k -u
 ```
