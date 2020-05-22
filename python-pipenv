@@ -1,6 +1,9 @@
 <!-- vim: syntax=Markdown -->
-# Create a new project using python 3
+# Create a new virtual environment using python 3
 pipenv --python 3
+
+# Install a new package for the virtual environment (infereed from current directory)
+pipenv install <package>
 
 # Generate requirements.txt
 pipenv lock --requirements > requirements.txt
