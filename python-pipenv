@@ -1,4 +1,7 @@
 <!-- vim: syntax=Markdown -->
+# Create a new project using python 3
+pipenv --python 3
+
 # Generate requirements.txt
 pipenv lock --requirements > requirements.txt
 
