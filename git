@@ -11,6 +11,11 @@ Stash untracked files and unstaged files but keeps everything staged
 $ git stash -k -u
 ```
 
+Display a short-format version of your local repository status
+```
+$ git status -s
+```
+
 Create a new local branch from a remote one
 ```
 $ git checkout --track origin/<ref>
@@ -35,11 +40,6 @@ $ git reset --soft HEAD~1
 Rewind your current HEAD to the previous commit and drop the changes
 ```
 $ git reset --hard HEAD~1
-```
-
-Display a short-format version of your local repository status
-```
-$ git status -s
 ```
 
 <!-- id: 10 -->
