@@ -1,6 +1,16 @@
 <!-- vim: syntax=Markdown -->
 # git
 
+Clone a repository and download all submodules
+```
+$ git clone --recursive <url>
+```
+
+Stash untracked files and unstaged files but keeps everything staged
+```
+$ git stash -k -u
+```
+
 Create a new local branch from a remote one
 ```
 $ git checkout --track origin/<ref>
@@ -27,11 +37,6 @@ Rewind your current HEAD to the previous commit and drop the changes
 $ git reset --hard HEAD~1
 ```
 
-Stash untracked files and unstaged files but keeps everything staged
-```
-$ git stash -k -u
-```
-
 Display a short-format version of your local repository status
 ```
 $ git status -s
@@ -47,11 +52,6 @@ $ git rebase origin/<remote>
 Show a file at a specific version
 ```
 git show <treeish>:<path>
-```
-
-Clone a repository and download all submodules
-```
-$ git clone --recursive <url>
 ```
 
 Return repository root directory
