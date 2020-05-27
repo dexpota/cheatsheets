@@ -6,9 +6,9 @@ Create a new local branch from a remote one
 $ git checkout --track origin/<ref>
 ```
 
-Checkout and create a new branch
+Create and checkout a new branch starting from `<ref>`
 ```
-$ git checkout -b new-branch <ref>
+$ git checkout -b <branch-name> <ref>
 ```
 
 Remove a file from the index and keeps it in the local filesystem
