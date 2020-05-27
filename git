@@ -11,22 +11,6 @@ Checkout and create a new branch
 $ git checkout -b new-branch <ref>
 ```
 
-Nice looking git log completed with stashes
-```
-$ git log --oneline --graph --decorate --all $(git reflog show --format="%h" stash)
-```
-
-Oneline log with a list of changed files
-```
-$ git log --name-status --pretty="%h%x09%ad%x09%ar%x09%s" --date=short
-```
-
-Show path and status of changed files
-```
-$ git log --name-status
-```
-
-
 Remove a file from the index and keeps it in the local filesystem
 ```
 $ git rm --cached <file>
@@ -48,21 +32,6 @@ Stash untracked files and unstaged files but keeps everything staged
 $ git stash -k -u
 ```
 
-Diff last commit with changes not yet staged
-```
-$ git diff
-```
-
-Diff last commit with staged changes
-```
-$ git diff --staged
-```
-
-Diff last commit with staged changes (synonym of --staged)
-```
-$ git diff --cached
-```
-
 Display a short-format version of your local repository status
 ```
 $ git status -s
@@ -79,6 +48,62 @@ Show a file at a specific version
 ```
 git show <treeish>:<path>
 ```
+
+Clone a repository and download all submodules
+```
+$ git clone --recursive <url>
+```
+
+Return repository root directory
+```
+$ git rev-parse --show-toplevel
+```
+
+Amend the last commit without editing the message
+```
+$ git commit --amend --no-edit
+```
+
+Remove remote tracking branches
+```
+$ git remote prune origin
+```
+
+## git-diff
+
+Diff last commit with changes not yet staged
+```
+$ git diff
+```
+
+Diff last commit with staged changes
+```
+$ git diff --staged
+```
+
+Diff last commit with staged changes (synonym of --staged)
+```
+$ git diff --cached
+```
+
+## git-log
+
+Nice looking git log completed with stashes
+```
+$ git log --oneline --graph --decorate --all $(git reflog show --format="%h" stash)
+```
+
+Oneline log with a list of changed files
+```
+$ git log --name-status --pretty="%h%x09%ad%x09%ar%x09%s" --date=short
+```
+
+Show path and status of changed files
+```
+$ git log --name-status
+```
+
+## git-submodule
 
 Add a submodule to your repository
 ```
@@ -114,24 +139,4 @@ $ git submodule update --remote
 Initialize and clone the submodule
 ```
 $ git submodule update --init
-```
-
-Clone a repository and download all submodules
-```
-$ git clone --recursive <url>
-```
-
-Return repository root directory
-```
-$ git rev-parse --show-toplevel
-```
-
-Amend the last commit without editing the message
-```
-$ git commit --amend --no-edit
-```
-
-Remove remote tracking branches
-```
-$ git remote prune origin
 ```
