@@ -53,6 +53,19 @@ Remove remote tracking branches
 $ git remote prune origin
 ```
 
+## Branches
+
+Rename a local branch
+```
+git branch -m [old-name] <new-name>
+```
+
+Prune all stale remote branches
+```
+git fetch --prune --all
+```
+
+
 ## Staging area
 
 Remove a file from the index and keeps it in the local filesystem
