@@ -4,3 +4,10 @@ List available tasks of a project
 ```
 gradle -q tasks [--all]
 ```
+
+Dependency insights of an Android project
+```
+gradlew :app:dependencyInsight --configuration [debug|release]compileClasspath --dependency <dependency>
+# For a project with product flavours
+gradlew :app:dependencyInsight --configuration flavour[Debug|Release]compileClasspath --dependency <dependency>
+```
