@@ -6,7 +6,8 @@ Clone a repository and download all submodules
 $ git clone --recursive <url>
 ```
 
-Stash untracked files and unstaged files but keeps everything staged
+Stash everything, `-u` untracked files too, but keep `-k` the staged changes in your working copy.
+The saved stash will contains everything, included the staged changes.
 ```
 $ git stash -k -u
 ```
