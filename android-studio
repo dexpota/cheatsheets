@@ -69,8 +69,8 @@
 | Go to implementation                  | Command + Option + b         | Control + Alt + b            |
 | Find usages                           |                              | Control + Alt + F7           |
 | Open Structure view                   |                              | Control + F12                |
-| Goto line                             |                              | Control + G                  |
-| Goto error or warning                 |                              | F2                           |
+| Go to line                            | Command + L                  | Control + G                  |
+| Go to error or warning                |                              | F2                           |
 | Move to next and previous declaration | Control + Up (Down)          |                              |
 
 ## Search
