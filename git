@@ -52,7 +52,7 @@ $ git remote prune origin
 Rebase **branch** starting from **upstream** onto **newbase**
 ```
 git rebase --onto newbase upstream branch
-`
+```
 
 <!-- id: 10 -->
 Rebase your current branch onto <target> branch
