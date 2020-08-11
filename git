@@ -27,13 +27,6 @@ Create and checkout a new branch starting from `<ref>`
 $ git checkout -b <branch-name> <ref>
 ```
 
-<!-- id: 10 -->
-Rebase your current branch onto <target> branch
-```
-$ git checkout <branch>
-$ git rebase origin/<remote>
-```
-
 Show a file at a specific version
 ```
 git show <treeish>:<path>
@@ -52,6 +45,20 @@ $ git commit --amend --no-edit
 Remove remote tracking branches
 ```
 $ git remote prune origin
+```
+
+## Rebase
+
+Rebase **branch** starting from **upstream** onto **newbase**
+```
+git rebase --onto newbase upstream branch
+`
+
+<!-- id: 10 -->
+Rebase your current branch onto <target> branch
+```
+$ git checkout <branch>
+$ git rebase origin/<remote>
 ```
 
 ## Branches
