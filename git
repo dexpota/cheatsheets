@@ -56,6 +56,11 @@ $ git remote prune origin
 
 ## Branches
 
+Reset the current branch to a specific commit
+```
+git reset --hard [commit]
+```
+
 Rename a local branch
 ```
 git branch -m [old-name] <new-name>
