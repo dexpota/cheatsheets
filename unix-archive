@@ -1,0 +1,18 @@
+<!-- vim: syntax=Markdown -->
+
+# Archiving Commands
+
+## List Content
+
+List the content of the archive
+```
+unzip -vl <archive>
+```
+
+```
+zipinfo -m <archive>
+```
+
+```
+gunzip -vl <archive>
+```
