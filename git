@@ -42,6 +42,13 @@ Amend the last commit without editing the message
 $ git commit --amend --no-edit
 ```
 
+## Tags
+
+List tags from all remotes or only the specified one
+```
+git ls-remote --tags [remote]
+```
+
 ## Rebase
 
 Rebase **branch** starting from **upstream** onto **newbase**
