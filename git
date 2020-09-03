@@ -42,11 +42,6 @@ Amend the last commit without editing the message
 $ git commit --amend --no-edit
 ```
 
-Remove remote tracking branches
-```
-$ git remote prune origin
-```
-
 ## Rebase
 
 Rebase **branch** starting from **upstream** onto **newbase**
@@ -73,11 +68,16 @@ Rename a local branch
 git branch -m [old-name] <new-name>
 ```
 
-Prune all stale remote branches
+Prune all stale (missing from remote) tracking branches
 ```
-git fetch --prune --all
+git fetch --prune|-p
 ```
 
+```
+git remote prune origin
+```
+
+Delete all local branches 
 
 ## Staging area
 
