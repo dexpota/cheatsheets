@@ -104,6 +104,18 @@ Rewind your current HEAD to the previous commit and drop the changes
 $ git reset --hard HEAD~1
 ```
 
+Selectively reset the changes (hunks) in the staging area
+```
+$ git reset -p
+```
+
+## Working area
+
+Selectively reset the changes (hunks) in the working area
+```
+$ git checkout -p
+```
+
 ## git-diff
 
 Diff last commit with changes not yet staged
