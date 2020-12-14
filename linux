@@ -1,6 +1,13 @@
 <!-- vim: syntax=Markdown -->
 # linux
 
+## Utilities
+
+Remove password from a PDF file
+```
+qpdf --password=YOURPASSWORD-HERE --decrypt input.pdf output.pdf
+```
+
 ## Diff
 
 List all files that differs between two directories, this will compare the content of the files
