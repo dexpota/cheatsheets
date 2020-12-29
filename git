@@ -133,6 +133,11 @@ Diff last commit with staged changes (synonym of --staged)
 $ git diff --cached
 ```
 
+Display a summary of the changes
+```
+git diff --stat
+```
+
 ## git-log
 
 Nice looking git log completed with stashes
