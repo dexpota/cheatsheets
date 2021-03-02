@@ -84,8 +84,6 @@ git fetch --prune|-p
 git remote prune origin
 ```
 
-Delete all local branches 
-
 ## Staging area
 
 Remove a file from the index and keeps it in the local filesystem
