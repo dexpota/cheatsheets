@@ -70,6 +70,11 @@ Reset the current branch to a specific commit
 git reset --hard [commit]
 ```
 
+Reset the current branch to the previous commit and keep the changes in the staging area
+```
+git reset HEAD^
+```
+
 Rename a local branch
 ```
 git branch -m [old-name] <new-name>
