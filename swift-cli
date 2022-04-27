@@ -1,0 +1,17 @@
+<!-- vim: syntax=Markdown -->
+# swift cli
+
+## swift-package
+
+Update the dependencies according to the restrictions inside `Package.swift` and update accordingly the 
+file `Package.resolved`.
+```
+swift package update
+```
+
+Resolve the dependencies declared inside `Package.resolved` when the file already exists or by taking into 
+account the restrictions inside `Package.swift`. In the last case the file `Package.resolved` will be 
+created.
+```
+swift package resolve
+```
