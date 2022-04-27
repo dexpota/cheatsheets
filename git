@@ -6,12 +6,6 @@ Clone a repository and download all submodules
 $ git clone --recursive <url>
 ```
 
-Stash everything, `-u` untracked files too, but keep `-k` the staged changes in your working copy.
-The saved stash will contains everything, included the staged changes.
-```
-$ git stash -k -u
-```
-
 Display a short-format version of your local repository status
 ```
 $ git status -s
@@ -194,4 +188,17 @@ $ git submodule update --remote
 Initialize and clone the submodule
 ```
 $ git submodule update --init
+```
+
+## git-stash
+
+Stash everything, `-u` untracked files too, but keep `-k` the staged changes in your working copy.
+The saved stash will contains everything, included the staged changes.
+```
+$ git stash -k -u
+```
+
+Show only the untracked files stored inside a stash.
+```
+git show 'stash@{0}^3'
 ```
