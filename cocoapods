@@ -1,0 +1,9 @@
+<!-- vim: syntax=Markdown -->
+# CocoaPods
+
+Clear CocoaPods cache, re-download and re-install all pods
+```
+rm -rf "${HOME}/Library/Caches/CocoaPods"
+rm -rf "`pwd`/Pods/"
+pod update
+```
