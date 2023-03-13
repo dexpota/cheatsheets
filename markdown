@@ -136,12 +136,12 @@ Markdown | Less | Pretty
 ## Task List
 
 ```
-- [x] Learn Markdown
-- [ ] Learn more Markdown
+-[x] Learn Markdown
+-[ ] Learn more Markdown
 ```
 
-- [x] Learn Markdown
-- [ ] Learn more Markdown
+-[x] Learn Markdown
+-[ ] Learn more Markdown
 
 ## Footnote [^1]
 
