@@ -140,8 +140,8 @@ Markdown | Less | Pretty
 -[ ] Learn more Markdown
 ```
 
--[x] Learn Markdown
--[ ] Learn more Markdown
+- [x] Learn Markdown
+- [ ] Learn more Markdown
 
 ## Footnote [^1]
 
@@ -152,14 +152,14 @@ Markdown | Less | Pretty
 
 [^1]: This is a footnote
 
-## Heading ID {#some-id}
+## Heading ID
 
 ```
-## Heading ID {#some-id}
-[Jumb to the heading with ID](#some-id)
+## Heading ID
+[Jumb to the heading with ID](#heading-ID)
 ```
 
-[Jumb to the heading with ID](#some-id)
+[Jumb to the heading with ID](#heading-ID)
 
 ## Inline HTML
 
