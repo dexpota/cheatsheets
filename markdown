@@ -133,6 +133,34 @@ Markdown | Less | Pretty
 > This line is part of the same quote.
 ```
 
+## Task List
+
+```
+- [x] Learn Markdown
+- [ ] Learn more Markdown
+```
+
+- [x] Learn Markdown
+- [ ] Learn more Markdown
+
+## Footnote [^1]
+
+```
+## Footnote [^1]
+[^1]: This is a footnote
+```
+
+[^1]: This is a footnote
+
+## Heading ID {#some-id}
+
+```
+## Heading ID {#some-id}
+[Jumb to the heading with ID](#some-id)
+```
+
+[Jumb to the heading with ID](#some-id)
+
 ## Inline HTML
 
 ```
