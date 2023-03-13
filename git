@@ -26,6 +26,11 @@ Show a file at a specific version
 git show <treeish>:<path>
 ```
 
+List all files in a commit.
+```
+git diff-tree --no-commit-id --name-only <ref> -r
+```
+
 Return repository root directory
 ```
 $ git rev-parse --show-toplevel
