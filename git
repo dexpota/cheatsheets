@@ -1,6 +1,16 @@
 <!-- vim: syntax=Markdown -->
 # git
 
+Which commit a tag points to?
+```
+$ git rev-list -n 1 $TAG
+```
+
+List all commits between two commit hashes
+```
+$ git rev-list --ancestry-path [commit1]^..[commit2]
+```
+
 Clone a repository and download all submodules
 ```
 $ git clone --recursive <url>
